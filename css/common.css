@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: '', sans-serif;
 }
 .h-font{
-    font-family: 'Merienda', cursive;
+    font-family: 'Inter',sans-serif;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -21,3 +23,72 @@ input[type=number] {
 .custom-bg:hover{
   background-color: #000000;
 }
+.location-container{
+  width: 100%;
+  height: 100vh;
+}
+iframe{
+  width: 100%;
+  height: 500px;
+  
+}
+.footer{
+  background: #fff;
+}
+.footer .container{
+  border: 0px solid;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.footer .container .box h3{
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1.5rem 0;
+}
+.footer .container .box .links{
+  display: block;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1.5rem 0;
+  text-decoration: none;
+}
+.footer .container .box .links i{
+  color: #FFA500;
+  padding-right: .5rem;
+  
+}
+.footer .container .box .links:hover i{
+  padding-right: 2rem;
+
+}
+.footer .container .box p{
+  line-height: 1.8;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1.5rem 0;
+}
+.footer .container .box .logo a{
+        height: 4rem;
+        width: 4rem;
+        border: 0px solid;
+        line-height: 4rem;
+        border-radius: .5rem;
+        font-size: 2rem;
+        color: var(--black);
+        margin-left: .2rem;
+        background: #eee;
+        text-align: center;
+
+}
+.footer .container .box .logo a:hover{
+ background-color: #FFA500;
+ color: #fff;
+}
+.footer .container .box img{
+margin-right: .5rem;
+}
+.footer .container .box h4 img{
+  margin-right: .5rem;
+}
+
